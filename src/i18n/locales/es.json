@@ -7,6 +7,11 @@
         "contact": "Contacto",
         "iconMenuAria": "Abrir menú",
         "iconConfigAria": "Ajustes"
+    },
+    "homeContent": {
+        "welcome": "¡Hola, Bienvenido!",
+        "apresentation": "Soy Vinícius Guedes",
+        "occupation": "Ingeniero de Software Full Stack"
     }
 }
   
