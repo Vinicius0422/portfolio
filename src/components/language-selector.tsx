@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { memo } from 'react';
 
-import { useTranslation } from "react-i18next";
+import { useThemeLanguage } from "@/contexts/theme-language-context";
 
 import brasilFlag from '../assets/brasil-flag.svg';
 import usaFlag from '../assets/usa-flag.svg';
@@ -18,25 +18,18 @@ const languages: LanguageButtonProps[] = [
     { language: 'pt', flagImg: brasilFlag, alt: 'Português' },
 ];
 
-export const LanguageSelector = () => {
+export const LanguageSelector = memo(() => {
 
-    const [selectedLanguage, setSelectedLanguage] = useState<string>('en');
-
-    const { i18n } = useTranslation();
-
-    const changeLanguage = (language: string) => {
-      setSelectedLanguage(language);
-      i18n.changeLanguage(language);
-    };
+    const { language, changeLanguage } = useThemeLanguage();
   
     return (
       <div className="flex gap-4">
-        {languages.map(({ language, flagImg, alt }) => (
+        {languages.map(({ language: lng, flagImg, alt }) => (
           <button
-            key={language}
-            onClick={() => changeLanguage(language)}
+            key={lng}
+            onClick={() => changeLanguage(lng)}
             className={`transition-opacity duration-300 ${
-                selectedLanguage === language ? 'opacity-100' : 'opacity-50'
+              language === lng ? 'opacity-100' : 'opacity-50'
             } cursor-pointer`}>
             <img 
                 src={flagImg}
@@ -48,4 +41,4 @@ export const LanguageSelector = () => {
         ))}
       </div>
     );
-}
+})

@@ -4,7 +4,9 @@
         "about": "Sobre Mim",
         "skills": "Conhecimentos",
         "projects": "Projetos",
-        "contact": "Contato"
+        "contact": "Contato",
+        "iconMenuAria": "Abrir menu",
+        "iconConfigAria": "Configurações"
     }
 }
   
