@@ -12,6 +12,10 @@
         "welcome": "¡Hola, Bienvenido!",
         "apresentation": "Soy Vinícius Guedes",
         "occupation": "Ingeniero de Software Full Stack"
+    },
+    "aboutContent": {
+        "aboutTitle": "Sobre Mí",
+        "aboutText": "Me llamo Vinícius, tengo 23 años y soy graduado en Análisis y Desarrollo de Sistemas. Actualmente, trabajo como Full Stack Software Engineer y me apasiona la tecnología y el desarrollo de software.\n\nTengo un gran interés por la innovación y siempre busco mejorar mis habilidades, explorar nuevas tecnologías y seguir las mejores prácticas del mercado para ofrecer soluciones eficientes, escalables y bien estructuradas.\n\nMi objetivo profesional es seguir evolucionando en el área de desarrollo, participar en proyectos desafiantes y, en el futuro, conseguir una oportunidad de trabajo en el extranjero, donde podré ampliar mis conocimientos, intercambiar experiencias con profesionales de diferentes culturas y contribuir al crecimiento de empresas a nivel global."
     }
 }
   
