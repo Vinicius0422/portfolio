@@ -7,16 +7,16 @@ import { WorkExperiences } from "./work-experiences";
 export const Content = () => {
   return (
     <>
-      <Section id="home" color="light">
+      <Section id="home">
         <Home />
       </Section>
-      <Section id="about" color="light">
+      <Section id="about">
         <About />
       </Section>
-      <Section id="skills" color="light">
+      <Section id="skills">
         <Skills />
       </Section>
-      <Section id="experiences" color="light">
+      <Section id="experiences">
         <WorkExperiences />
       </Section>
     </>
