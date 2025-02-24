@@ -17,7 +17,7 @@ export const Header = () => {
     const { t } = useTranslation();
 
     const [isOpen, setIsOpen] = useState(false);
-    const [isLgScreen, setIsLgScreen] = useState(false);
+    const [_isLgScreen, setIsLgScreen] = useState(false);
   
     const checkScreenSize = () => {
       if (window.innerWidth >= 1024) {

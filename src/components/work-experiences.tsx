@@ -1,4 +1,3 @@
-import React from "react";
 import { Container } from "./container";
 import { Wrapper } from "./wrapper";
 import { useTranslation } from "react-i18next";
