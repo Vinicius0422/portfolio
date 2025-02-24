@@ -38,7 +38,7 @@ export const Header = () => {
   
 
   return (
-    <header className='fixed w-full h-20 flex items-center bg-white dark:bg-gray-800 opacity-85 backdrop-blur-xl shadow-md'>
+    <header className='fixed w-full h-20 flex items-center bg-white dark:bg-gray-800 opacity-95 z-10 backdrop-blur-3xl shadow-md'>
         <Container>
                 <nav className="flex items-center justify-between">
                     <h1 className="text-3xl font-semibold text-gray-900 dark:text-gray-100">Vinicius</h1>
