@@ -12,7 +12,7 @@ export const About = () => {
           <h3 className="text-xl md:text-3xl lg:text-4xl font-semibold">
             {t("aboutContent.aboutTitle")}
           </h3>
-          <p className="text-justify">
+          <p className="text-justify lg:text-xl">
             {t("aboutContent.aboutText")
               .split("\n\n")
               .map((paragraph, index) => (

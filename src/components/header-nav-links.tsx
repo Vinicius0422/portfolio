@@ -6,6 +6,7 @@ const menusLinks = [
   { id: "#home", link: "header.home" },
   { id: "#about", link: "header.about" },
   { id: "#skills", link: "header.skills" },
+  { id: "#experiences", link: "header.experiences"},
   { id: "#projects", link: "header.projects" },
   { id: "#contact", link: "header.contact" },
 ];

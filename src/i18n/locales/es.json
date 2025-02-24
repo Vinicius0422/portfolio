@@ -1,21 +1,25 @@
 {
-    "header": {
-        "home": "Inicio",
-        "about": "Sobre Mí",
-        "skills": "Conocimientos",
-        "projects": "Proyectos",
-        "contact": "Contacto",
-        "iconMenuAria": "Abrir menú",
-        "iconConfigAria": "Ajustes"
-    },
-    "homeContent": {
-        "welcome": "¡Hola, Bienvenido!",
-        "apresentation": "Soy Vinícius Guedes",
-        "occupation": "Ingeniero de Software Full Stack"
-    },
-    "aboutContent": {
-        "aboutTitle": "Sobre Mí",
-        "aboutText": "Me llamo Vinícius, tengo 23 años y soy graduado en Análisis y Desarrollo de Sistemas. Actualmente, trabajo como Full Stack Software Engineer y me apasiona la tecnología y el desarrollo de software.\n\nTengo un gran interés por la innovación y siempre busco mejorar mis habilidades, explorar nuevas tecnologías y seguir las mejores prácticas del mercado para ofrecer soluciones eficientes, escalables y bien estructuradas.\n\nMi objetivo profesional es seguir evolucionando en el área de desarrollo, participar en proyectos desafiantes y, en el futuro, conseguir una oportunidad de trabajo en el extranjero, donde podré ampliar mis conocimientos, intercambiar experiencias con profesionales de diferentes culturas y contribuir al crecimiento de empresas a nivel global."
-    }
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "skills": "Conocimientos",
+    "experiences": "Experiencias",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "iconMenuAria": "Abrir menú",
+    "iconConfigAria": "Ajustes"
+  },
+  "homeContent": {
+    "welcome": "¡Hola, Bienvenido!",
+    "apresentation": "Soy Vinícius Guedes",
+    "occupation": "Ingeniero de Software Full Stack"
+  },
+  "aboutContent": {
+    "aboutTitle": "Sobre Mí",
+    "aboutText": "Me llamo Vinícius, tengo 23 años y soy graduado en Análisis y Desarrollo de Sistemas. Actualmente, trabajo como Full Stack Software Engineer y me apasiona la tecnología y el desarrollo de software.\n\nTengo un gran interés por la innovación y siempre busco mejorar mis habilidades, explorar nuevas tecnologías y seguir las mejores prácticas del mercado para ofrecer soluciones eficientes, escalables y bien estructuradas.\n\nMi objetivo profesional es seguir evolucionando en el área de desarrollo, participar en proyectos desafiantes y, en el futuro, conseguir una oportunidad de trabajo en el extranjero, donde podré ampliar mis conocimientos, intercambiar experiencias con profesionales de diferentes culturas y contribuir al crecimiento de empresas a nivel global."
+  },
+  "experiencesContent": {
+    "experiencesTitle": "Experiencias Laborales",
+    "experiencesText": "Actualmente, tengo 9 meses de experiencia en desarrollo de software. En mi primer empleo, trabajé como Desarrollador Junior en un equipo pequeño, compuesto por mí y un desarrollador senior. Trabajamos en un proyecto de gestión de contenidos, que incluye:\n\n- API Backend en Java con Spring Boot\n- Portal público\n- Portal externo\n- Panel administrativo para gestión de contenidos\n\nCuando ingresé a la empresa, este proyecto ya llevaba 3 años en desarrollo. Con el tiempo, asumí varias responsabilidades de forma independiente, siempre contando con la orientación de mi compañero senior. A pesar de los desafíos, logramos avanzar significativamente y el proyecto está cerca de su conclusión.\n\nPrincipales tecnologías utilizadas: Java 11, Spring Boot, Angular 12, GitLab y Docker.\n\nA partir de marzo de 2025, comenzaré en una nueva empresa, donde espero adquirir más experiencia trabajando en equipo, participar en grandes proyectos y seguir las mejores prácticas del mercado.\n\nPrincipales tecnologías que utilizaré en esta nueva experiencia: C#, .NET Core, React.js, Next.js y Docker."
+  }  
 }
-  

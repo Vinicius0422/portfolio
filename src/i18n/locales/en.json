@@ -1,22 +1,25 @@
 {
-    "header": {
-        "home": "Home",
-        "about": "About Me",
-        "skills": "Skills",
-        "projects": "Projects",
-        "contact": "Contact",
-        "iconMenuAria": "Open menu",
-        "iconConfigAria": "Settings"
-    },
-    "homeContent": {
-        "welcome": "Hello, Welcome!",
-        "apresentation": "I am Vinícius Guedes",
-        "occupation": "Full Stack Software Engineer"
-    },
-    "aboutContent": {
-        "aboutTitle": "About Me",
-        "aboutText": "My name is Vinícius, I am 23 years old and I have a degree in Systems Analysis and Development. Currently, I work as a Full Stack Software Engineer and I am passionate about technology and software development.\n\nI have a strong interest in innovation and I am always looking to improve my skills, explore new technologies, and follow industry best practices to deliver efficient, scalable, and well-structured solutions.\n\nMy professional goal is to continue growing in the development field, work on challenging projects, and, in the future, secure a job opportunity abroad, where I can expand my knowledge, exchange experiences with professionals from different cultures, and contribute to the growth of global companies."
-    }
+  "header": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "experiences": "Experiences",
+    "projects": "Projects",
+    "contact": "Contact",
+    "iconMenuAria": "Open menu",
+    "iconConfigAria": "Settings"
+  },
+  "homeContent": {
+    "welcome": "Hello, Welcome!",
+    "apresentation": "I am Vinícius Guedes",
+    "occupation": "Full Stack Software Engineer"
+  },
+  "aboutContent": {
+    "aboutTitle": "About Me",
+    "aboutText": "My name is Vinícius, I am 23 years old and I have a degree in Systems Analysis and Development. Currently, I work as a Full Stack Software Engineer and I am passionate about technology and software development.\n\nI have a strong interest in innovation and I am always looking to improve my skills, explore new technologies, and follow industry best practices to deliver efficient, scalable, and well-structured solutions.\n\nMy professional goal is to continue growing in the development field, work on challenging projects, and, in the future, secure a job opportunity abroad, where I can expand my knowledge, exchange experiences with professionals from different cultures, and contribute to the growth of global companies."
+  },
+  "experiencesContent": {
+    "experiencesTitle": "Work Experiences",
+    "experiencesText": "Currently, I have 9 months of experience in software development. In my first job, I worked as a Junior Developer in a small team, consisting of myself and a senior developer. We worked on a content management project, which includes:\n\n- API Backend in Java with Spring Boot\n- Public portal\n- External portal\n- Administrative panel for content management\n\nWhen I joined the company, this project had already been in development for 3 years. Over time, I took on various responsibilities independently, always relying on the guidance of my senior colleague. Despite the challenges, we made significant progress, and the project is close to completion.\n\nMain technologies used: Java 11, Spring Boot, Angular 12, GitLab, and Docker.\n\nStarting in March 2025, I will join a new company, where I hope to gain more experience working in a team, working on large projects, and following best market practices.\n\nMain technologies I will be using in this new role: C#, .NET Core, React.js, Next.js, and Docker."
+  }  
 }
-
-  
