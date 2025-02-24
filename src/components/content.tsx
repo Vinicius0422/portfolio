@@ -1,6 +1,7 @@
 import { About } from "./about";
 import { Home } from "./home";
 import { Section } from "./section";
+import { Skills } from "./skills";
 import { WorkExperiences } from "./work-experiences";
 
 export const Content = () => {
@@ -13,7 +14,7 @@ export const Content = () => {
         <About />
       </Section>
       <Section id="skills" color="light">
-        <p>SKILLS</p>
+        <Skills />
       </Section>
       <Section id="experiences" color="light">
         <WorkExperiences />

@@ -15,11 +15,11 @@ export const Section = ({ id, children, color }: SectionProps) => {
             ${color === "sky" ? "bg-sky-500 text-white" : ""}
             ${color === "emerald" ? "bg-emerald-500 text-white" : ""}
             ${color === "purple" ? "bg-purple-500 text-white" : ""}
-            ${color === "light" ? "bg-gray-100 text-black" : ""}
+            ${color === "light" ? "bg-gray-100 text-gray-900" : ""}
             dark:${color === "sky" ? "bg-sky-800 text-white" : ""}
             dark:${color === "emerald" ? "bg-emerald-800 text-white" : ""}
             dark:${color === "purple" ? "bg-purple-800 text-white" : ""}
-            dark:${color === "light" ? "bg-gray-900 text-white" : ""}
+            dark:${color === "light" ? "bg-gray-900 text-gray-100" : ""}
           `}
     >
       {children}

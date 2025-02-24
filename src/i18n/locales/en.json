@@ -18,8 +18,29 @@
     "aboutTitle": "About Me",
     "aboutText": "My name is Vinícius, I am 23 years old and I have a degree in Systems Analysis and Development. Currently, I work as a Full Stack Software Engineer and I am passionate about technology and software development.\n\nI have a strong interest in innovation and I am always looking to improve my skills, explore new technologies, and follow industry best practices to deliver efficient, scalable, and well-structured solutions.\n\nMy professional goal is to continue growing in the development field, work on challenging projects, and, in the future, secure a job opportunity abroad, where I can expand my knowledge, exchange experiences with professionals from different cultures, and contribute to the growth of global companies."
   },
+  "skillsContent": {
+    "defaultSkillsDescription": "*Hover over the card to read*",
+    "htmlDescription": "HTML is the markup language used to structure web pages.",
+    "cssDescription": "CSS is the styling language used to define the design and layout of web pages.",
+    "jsDescription": "JavaScript is a programming language used to create interactivity on websites.",
+    "reactDescription": "React is a JavaScript library for building reactive user interfaces.",
+    "nextDescription": "Next.js is a React framework that facilitates server-side rendering and web application development.",
+    "tailwindDescription": "Tailwind CSS is a styling framework based on utility classes.",
+    "tsDescription": "TypeScript is a superset of JavaScript that adds static typing to the code.",
+    "cypressDescription": "Cypress is an end-to-end testing framework for web applications.",
+    "javaDescription": "Java is an object-oriented programming language widely used for backend development.",
+    "springDescription": "Spring Boot is a Java framework that simplifies API and robust backend application development.",
+    "dotnetDescription": ".NET is a Microsoft platform for backend and desktop application development.",
+    "databaseDescription": "Databases are systems used to store, organize, and retrieve structured information.",
+    "rabbitmqDescription": "RabbitMQ is a message broker that facilitates communication between microservices.",
+    "gitDescription": "Git is a distributed version control system used to manage source code.",
+    "dockerDescription": "Docker is a platform for creating, distributing, and running applications in containers.",
+    "awsDescription": "AWS (Amazon Web Services) is a cloud computing platform from Amazon.",
+    "experienceTimeText": "Experience time",
+    "monthText": "Month(s)"
+  },
   "experiencesContent": {
     "experiencesTitle": "Work Experiences",
     "experiencesText": "Currently, I have 9 months of experience in software development. In my first job, I worked as a Junior Developer in a small team, consisting of myself and a senior developer. We worked on a content management project, which includes:\n\n- API Backend in Java with Spring Boot\n- Public portal\n- External portal\n- Administrative panel for content management\n\nWhen I joined the company, this project had already been in development for 3 years. Over time, I took on various responsibilities independently, always relying on the guidance of my senior colleague. Despite the challenges, we made significant progress, and the project is close to completion.\n\nMain technologies used: Java 11, Spring Boot, Angular 12, GitLab, and Docker.\n\nStarting in March 2025, I will join a new company, where I hope to gain more experience working in a team, working on large projects, and following best market practices.\n\nMain technologies I will be using in this new role: C#, .NET Core, React.js, Next.js, and Docker."
-  }  
+  }
 }
