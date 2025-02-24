@@ -9,13 +9,17 @@ export const About = () => {
     <Container>
       <Wrapper>
         <div className="text-gray-900 dark:text-gray-100 space-y-8">
-          <h3 className="text-xl md:text-3xl lg:text-4xl font-semibold">{t('aboutContent.aboutTitle')}</h3>
+          <h3 className="text-xl md:text-3xl lg:text-4xl font-semibold">
+            {t("aboutContent.aboutTitle")}
+          </h3>
           <p className="text-justify">
-            {t('aboutContent.aboutText').split('\n\n').map((paragraph, index) => (
+            {t("aboutContent.aboutText")
+              .split("\n\n")
+              .map((paragraph, index) => (
                 <span key={index} className="block mb-2">
-                    {paragraph}
+                  {paragraph}
                 </span>
-            ))}
+              ))}
           </p>
         </div>
       </Wrapper>
