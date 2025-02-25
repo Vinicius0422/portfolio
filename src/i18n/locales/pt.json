@@ -52,5 +52,8 @@
     "rentifyDescription": "Projeto inspirado nas plataformas Booking e Airbnb",
     "rentifyContent": "Tecnologias utilizadas: Next.Js, Java 23, Spring, Postgres SQL, Docker",
     "rentifyFooter": "Projeto em desenvolvimento"
+  },
+  "footerContent": {
+    "rightsReserved": "Todos os direitos reservados."
   }
 }
