@@ -1,4 +1,5 @@
 import { About } from "./about";
+import { Contact } from "./contact";
 import { Home } from "./home";
 import { Projects } from "./projects";
 import { Section } from "./section";
@@ -22,6 +23,9 @@ export const Content = () => {
       </Section>
       <Section id="projects">
         <Projects />
+      </Section>
+      <Section id="contact">
+        <Contact />
       </Section>
     </>
   );

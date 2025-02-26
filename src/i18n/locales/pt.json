@@ -55,5 +55,26 @@
   },
   "footerContent": {
     "rightsReserved": "Todos os direitos reservados."
+  },
+  "contactsContent": {
+    "contactsTitle": "Fale comigo",
+    "nameMinMessage": "Nome deve ter ao menos 3 caracteres.",
+    "nameMaxMessage": "Nome não pode ter mais de 100 caracteres.",
+    "nameLabel": "Nome Completo",
+    "namePlaceHolder": "Digite seu nome...",
+    "nameDescription": "Seu nome completo aparecerá no email.",
+    "emailRequiredMessage": "Email é obrigatório.",
+    "emailInvalidMessage": "Endereço de email inválido.",
+    "emailPlaceHolder": "Digite seu email...",
+    "emailDescription": "Certifique-se de inserir um endereço de e-mail válido.",
+    "messageMinMessage": "Mensagem deve ter ao menos 3 caracteres.",
+    "messageMaxMessage": "Mensagem não pode ter mais de 5000 caracteres.",
+    "messageLabel": "Mensagem",
+    "messagePlaceHolder": "Digite sua mensagem...",
+    "messageDescription": "Sua mensagem deve ter entre 3 a 5000 caracteres.",
+    "submitBtn": "Enviar",
+    "submitBtnLoading": "Enviando...",
+    "messageSuccesSendEmail": "Email enviado com sucesso.",
+    "messageErrorSendEmail": "Erro ao enviar email. Por favor, tente novamente."
   }
 }

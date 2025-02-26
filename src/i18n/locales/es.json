@@ -55,5 +55,26 @@
   },
   "footerContent": {
     "rightsReserved": "Todos los derechos reservados."
+  },
+  "contactsContent": {
+    "contactsTitle": "Contáctame",
+    "nameMinMessage": "El nombre debe tener al menos 3 caracteres.",
+    "nameMaxMessage": "El nombre no puede tener más de 100 caracteres.",
+    "nameLabel": "Nombre Completo",
+    "namePlaceHolder": "Escribe tu nombre...",
+    "nameDescription": "Tu nombre completo aparecerá en el correo electrónico.",
+    "emailRequiredMessage": "El correo electrónico es obligatorio.",
+    "emailInvalidMessage": "Dirección de correo electrónico no válida.",
+    "emailPlaceHolder": "Escribe tu correo electrónico...",
+    "emailDescription": "Asegúrate de ingresar una dirección de correo electrónico válida.",
+    "messageMinMessage": "El mensaje debe tener al menos 3 caracteres.",
+    "messageMaxMessage": "El mensaje no puede tener más de 5000 caracteres.",
+    "messageLabel": "Mensaje",
+    "messagePlaceHolder": "Escribe tu mensaje...",
+    "messageDescription": "Tu mensaje debe tener entre 3 y 5000 caracteres.",
+    "submitBtn": "Enviar",
+    "submitBtnLoading": "Enviando...",
+    "messageSuccesSendEmail": "Correo electrónico enviado con éxito.",
+    "messageErrorSendEmail": "Error al enviar el correo electrónico. Por favor, inténtalo de nuevo."
   }
 }

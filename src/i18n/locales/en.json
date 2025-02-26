@@ -55,5 +55,26 @@
   },
   "footerContent": {
     "rightsReserved": "All rights reserved."
+  },
+  "contactsContent": {
+    "contactsTitle": "Contact Me",
+    "nameMinMessage": "Name must be at least 3 characters long.",
+    "nameMaxMessage": "Name cannot exceed 100 characters.",
+    "nameLabel": "Full Name",
+    "namePlaceHolder": "Enter your name...",
+    "nameDescription": "Your full name will appear in the email.",
+    "emailRequiredMessage": "Email is required.",
+    "emailInvalidMessage": "Invalid email address.",
+    "emailPlaceHolder": "Enter your email...",
+    "emailDescription": "Make sure to enter a valid email address.",
+    "messageMinMessage": "Message must be at least 3 characters long.",
+    "messageMaxMessage": "Message cannot exceed 5000 characters.",
+    "messageLabel": "Message",
+    "messagePlaceHolder": "Enter your message...",
+    "messageDescription": "Your message should be between 3 and 5000 characters.",
+    "submitBtn": "Send",
+    "submitBtnLoading": "Sending...",
+    "messageSuccesSendEmail": "Email sent successfully.",
+    "messageErrorSendEmail": "Failed to send email. Please try again."
   }
 }
