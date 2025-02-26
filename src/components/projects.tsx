@@ -1,36 +1,14 @@
-import { useEffect, useRef, useState } from "react";
 import { Container } from "./container";
 import { Wrapper } from "./wrapper";
 import { CardProjectsComponent } from "./card-projects";
 
 import imgTeste from "../assets/img-teste.jpg";
 import { useTranslation } from "react-i18next";
+import useVisibility from "@/hooks/use-visibility";
 
 export const Projects = () => {
   const { t } = useTranslation();
-  const [isVisible, setIsVisible] = useState(false);
-  const sectionRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-        }
-      },
-      { threshold: 0.3 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
+  const { isVisible, sectionRef } = useVisibility(0.3);
 
   return (
     <Container>

@@ -24,12 +24,14 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
+import useVisibility from "@/hooks/use-visibility";
 
 export const Skills = () => {
   const { t, i18n } = useTranslation();
   const [hoveredDescription, setHoveredDescription] = useState(
     t("skillsContent.defaultSkillsDescription")
   );
+  const { isVisible, sectionRef } = useVisibility(0.3);
 
   useEffect(() => {
     const handleLanguageChange = () => {
@@ -37,7 +39,6 @@ export const Skills = () => {
     };
 
     i18n.on("languageChanged", handleLanguageChange);
-
     return () => {
       i18n.off("languageChanged", handleLanguageChange);
     };
@@ -46,7 +47,12 @@ export const Skills = () => {
   return (
     <Container>
       <Wrapper>
-        <div className="text-gray-900 dark:text-gray-100 flex flex-col md:flex-row items-center md:items-start justify-between space-x-4 space-y-8 w-full">
+        <div
+          ref={sectionRef}
+          className={`text-gray-900 dark:text-gray-100 flex flex-col md:flex-row items-center md:items-start justify-between space-x-4 space-y-8 w-full animate-once animate-duration-1000 animate-delay-300 animate-ease-linear ${
+            isVisible ? "animate-fade" : "opacity-0"
+          }`}
+        >
           <div className="flex flex-col items-start space-y-8 md:max-w-[45%]">
             <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
               Skills

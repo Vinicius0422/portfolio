@@ -7,14 +7,21 @@ import { SiGmail } from "react-icons/si";
 
 import imgHome from "../assets/img-home.png";
 import { Wrapper } from "./wrapper";
+import useVisibility from "@/hooks/use-visibility";
 
 export const Home = () => {
   const { t } = useTranslation();
+  const { isVisible, sectionRef } = useVisibility(0.3);
 
   return (
     <Container>
       <Wrapper>
-        <div className="flex flex-col text-gray-900 dark:text-gray-100 gap-10 animate-fade-right animate-duration-1000 animate-delay-300 animate-ease-linear">
+        <div
+          ref={sectionRef}
+          className={`flex flex-col text-gray-900 dark:text-gray-100 gap-10 animate-duration-1000 animate-delay-300 animate-ease-linear ${
+            isVisible ? "animate-fade-right" : "opacity-0"
+          }`}
+        >
           <div className="space-y-2 lg:space-y-4 text-center lg:text-start">
             <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
               {t("homeContent.welcome")}

@@ -19,6 +19,7 @@ import { Textarea } from "./ui/textarea";
 import { Container } from "./container";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import useVisibility from "@/hooks/use-visibility";
 
 interface MessageEmailProps {
   type: "error" | "success";
@@ -28,6 +29,7 @@ interface MessageEmailProps {
 export const Contact = () => {
   const { t } = useTranslation();
   const [messageEmail, setMessageEmail] = useState<MessageEmailProps>();
+  const { isVisible, sectionRef } = useVisibility(0.3);
 
   const formSchema = z.object({
     name: z
@@ -54,7 +56,7 @@ export const Contact = () => {
   });
 
   const {
-    formState: { isSubmitting, errors },
+    formState: { isSubmitting },
     reset,
   } = form;
 
@@ -81,7 +83,12 @@ export const Contact = () => {
 
   return (
     <Container>
-      <div className="min-h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-5 lg:gap-10 mb-5">
+      <div
+        ref={sectionRef}
+        className={`min-h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-5 lg:gap-10 mb-5 ${
+          isVisible ? "animate-fade-up" : "opacity-0"
+        }`}
+      >
         <h3 className="text-xl md:text-3xl lg:text-4xl font-semibold">
           {t("contactsContent.contactsTitle")}
         </h3>
@@ -159,7 +166,9 @@ export const Contact = () => {
               className="text-gray-100 dark:text-gray-900 bg-gray-800 dark:bg-gray-100"
               disabled={isSubmitting}
             >
-              {isSubmitting ? t("contactsContent.submitBtnLoading") : t("contactsContent.submitBtn")}
+              {isSubmitting
+                ? t("contactsContent.submitBtnLoading")
+                : t("contactsContent.submitBtn")}
             </Button>
             {messageEmail && messageEmail.type === "error" && (
               <div className="p-4 rounded-lg bg-red-500 text-white">
