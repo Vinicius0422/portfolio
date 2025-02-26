@@ -58,7 +58,7 @@ export const Skills = () => {
               Skills
             </h3>
 
-            <p className="text-sky-500 dark:text-emerald-500 text-xl break-words whitespace-normal max-w-full whitespace-pre-line">
+            <p className="text-sky-500 dark:text-emerald-500 text-xl break-words max-w-full">
               {hoveredDescription}
             </p>
           </div>

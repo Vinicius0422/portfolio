@@ -44,6 +44,7 @@
     "experiencesText": "Atualmente, tenho 9 meses de experiência no desenvolvimento de software. No meu primeiro emprego, atuei como Desenvolvedor Júnior em uma equipe enxuta, composta por mim e um desenvolvedor sênior. Trabalhamos em um projeto de gerenciamento de conteúdos, que inclui:\n\n- API Backend em Java com Spring Boot\n- Portal público\n- Portal externo\n- Painel administrativo para gerenciamento de conteúdos\n\nQuando entrei na empresa, este projeto já estava em desenvolvimento há 3 anos. Ao longo do tempo, assumi diversas responsabilidades de forma independente, sempre contando com a orientação do meu colega sênior. Apesar dos desafios, conseguimos avançar significativamente, e o projeto está próximo da conclusão.\n\nPrincipais tecnologias utilizadas: Java 11, Spring Boot, Angular 12, GitLab e Docker.\n\nA partir de março de 2025, iniciarei em uma nova empresa, onde espero ganhar mais experiência em trabalho em equipe, atuar em grandes projetos e seguir boas práticas de mercado.\n\nPrincipais tecnologias que utilizarei nessa nova experiência: C#, .NET Core, React.js, Next.js e Docker."
   },
   "projectsContent": {
+    "projectsTitle": "Projetos",
     "tripBuilderTitle": "Trip Builder",
     "tripBuilderDescription": "Um projeto sass para geração de roteiros de viagem",
     "tripBuilderContent": "Tecnologias utilizadas: Next.Js, Java 23, Spring, RabbitMQ, IA, Postgres SQL, Docker, AWS, CDN",

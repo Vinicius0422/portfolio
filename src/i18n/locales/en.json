@@ -44,6 +44,7 @@
     "experiencesText": "Currently, I have 9 months of experience in software development. In my first job, I worked as a Junior Developer in a small team, consisting of myself and a senior developer. We worked on a content management project, which includes:\n\n- API Backend in Java with Spring Boot\n- Public portal\n- External portal\n- Administrative panel for content management\n\nWhen I joined the company, this project had already been in development for 3 years. Over time, I took on various responsibilities independently, always relying on the guidance of my senior colleague. Despite the challenges, we made significant progress, and the project is close to completion.\n\nMain technologies used: Java 11, Spring Boot, Angular 12, GitLab, and Docker.\n\nStarting in March 2025, I will join a new company, where I hope to gain more experience working in a team, working on large projects, and following best market practices.\n\nMain technologies I will be using in this new role: C#, .NET Core, React.js, Next.js, and Docker."
   },
   "projectsContent": {
+    "projectsTitle": "Projects",
     "tripBuilderTitle": "Trip Builder",
     "tripBuilderDescription": "A SaaS project for generating travel itineraries",
     "tripBuilderContent": "Technologies used: Next.js, Java 23, Spring, RabbitMQ, AI, Postgres SQL, Docker, AWS, CDN",

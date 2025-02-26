@@ -85,7 +85,7 @@ export const Contact = () => {
     <Container>
       <div
         ref={sectionRef}
-        className={`min-h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-5 lg:gap-10 mb-5 ${
+        className={`min-h-[calc(100vh-80px)] flex flex-col justify-center gap-5 lg:gap-10 mb-5 ${
           isVisible ? "animate-fade-up" : "opacity-0"
         }`}
       >
